@@ -7,6 +7,12 @@
          */
         private string $plate_number;
         /**
+         * User Agent for the requests
+         * 
+         * @var string
+         */
+        private string $user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4735.62 Safari/537.36";
+        /**
          * Setting the car's plate number to get the VIN number
          * 
          * @param string
