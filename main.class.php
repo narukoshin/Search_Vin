@@ -87,4 +87,5 @@
             return current(explode("\"", $match[1]));
         }
     }
+    // Printing out the VIN number
     echo (new Vin_Search)->set_plate("JL 152")->find();
