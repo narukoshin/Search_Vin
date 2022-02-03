@@ -11,7 +11,9 @@
          */
         private object $request;
         /**
+         * Construction function
          * 
+         * @return void
          */
         public function __construct(){
             $this->request = (object)[
@@ -39,7 +41,6 @@
          * Find the VIN number by car plate
          * 
          * @return void
-         * 
         */
         public function find(){
             $code = $this->_get_code();
